@@ -13,7 +13,7 @@ public class SpringExampleApplication {
 
     public static void main(String[] args) {
         // 启动 Spring Boot 应用
-        ConfigurableApplicationContext run = SpringApplication.run(SpringExampleApplication.class, args);
+        SpringApplication.run(SpringExampleApplication.class, args);
     }
 
     @Bean
